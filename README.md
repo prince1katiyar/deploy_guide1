@@ -64,6 +64,7 @@ In your GitHub repository:
 
 Go to Settings → Secrets → New repository secret
 Add these secrets:
+# credential need to add 
 
 AWS_ACCESS_KEY_ID: Your IAM user access key
 AWS_SECRET_ACCESS_KEY: Your IAM user secret key
@@ -74,8 +75,7 @@ EC2_SSH_KEY: The private SSH key content (.pem file)
 
 
 
-
-715841335868.dkr.ecr.ap-south-1.amazonaws.com/streamlit-app
+715841335868.dkr.ecr.ap-south-1.amazonaws.com/streamlit-apps
 
 cat /path/to/your-key.pem
 
